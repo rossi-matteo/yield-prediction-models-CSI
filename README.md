@@ -20,13 +20,7 @@ The dataset was restricted to significant agricultural regions with at least 2,0
 This challenge, organized by AgML, under the Agricultural Model Intercomparison and Improvement Project (AgMIP), emphasized intercomparison studies and benchmark datasets, enabling advancements in agricultural research.
 
 ## Metrics and Results
-Model performance was evaluated using the **Root Mean Square Error (RMSE)**, calculated as:
-
-\[
-RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}
-\]
-
-where \( y_i \) are actual values, \( \hat{y}_i \) are predicted values, and \( n \) is the number of observations. A lower RMSE indicates better accuracy.
+Model performance was evaluated using the **Root Mean Square Error (RMSE)**, where a lower RMSE indicates better accuracy.
 
 ### Results Table
 | Model            | Prediction (2020–2050) | Prediction (2051–2098) |
